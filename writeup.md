@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.png "Visualization"
-[image2]: ./examples/grayscale.png "Grayscaling"
+[image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/preprocess.png "Pre-process"
 [image4]: ./examples/test_001.jpg "Traffic Sign Test 001"
 [image5]: ./examples/test_002.jpg "Traffic Sign Test 002"
@@ -155,7 +155,7 @@ Here are the results of the prediction:
 | Road work			| Road work      							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 100%.
+The model was able to correctly predict 5 of the 5 traffic signs from the internet.  This is certainly a plausible test accuracy considering the validation accuracy was relatively high at 93.5%. The validation accuracy is also not so high that we should also expect that other novel traffic signs can fail prediction.
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
